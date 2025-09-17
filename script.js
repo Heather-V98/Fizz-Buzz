@@ -3,8 +3,10 @@ document.getElementById("runBtn").addEventListener("click", runFizzBuzz);
 function runFizzBuzz() {
   const limit = parseInt(document.getElementById("limit").value);
   const output = document.getElementById("output");
-  output.innerHTML = ""; // Clear old results
+  output.innerHTML = ""; 
+  // Clear old results
 
+  //loops like we talked about today in class, kinda confusing but we are getting there.
   for (let i = 1; i <= limit; i++) {
     let li = document.createElement("li");
 
